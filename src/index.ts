@@ -25,7 +25,6 @@ export default {
           ]
         }),
     })
-    console.log("test")
     await message.forward(env.FORWARD_EMAIL);
   }
 }
