@@ -16,10 +16,10 @@ export default {
           response_type: "in_channel",
           blocks: [
             {
-              type: "header",
+              type: "section",
               text: {
                 type: "plain_text",
-                text: message.from
+                text: `recieved an email from ${message.from}`
               }
             }
           ]
